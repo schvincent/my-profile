@@ -1,0 +1,92 @@
+h1{
+	color: #0a043c;
+}
+
+h2{
+	color: #495464;
+}
+
+h3{
+	color: #79a3b1;
+}
+
+body{font-family: Calibri, serif;
+	line-height: 1,7;
+	background-color: #e8e8e8;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+img{
+	border-radius: 4px;
+}
+
+h1, h2, h3{
+	font-family: 'Source+Sans+Pro', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+i{
+	color: #ec524b;
+}
+
+.first{
+	text-align: center;
+}
+
+a:hover {
+	color: #d0e8f2;
+	background-color: #495464;
+}
+
+.bouton{
+	background-color: #d0e8f2;
+	border-radius: 2px;
+	padding: 5px;
+	color: #495464;
+	font-family: 'Russo One', sans-serif;
+	
+}
+
+
+div{
+	border-top: 2px solid grey;
+	border-right:2px solid grey; 
+	border-bottom:2px solid grey;
+	border-left:2px solid grey;
+	border-radius: 4px;
+	margin: 10px 20px;
+	box-shadow: 2px 2px 3px rgb(0,0,0,0.5);
+	padding: 20px;
+	background: white;
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.fa-car{
+	text-align: center;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+ div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+ div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+ div {
+    width: 300px;
+  }
+}
+
